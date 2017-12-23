@@ -1,6 +1,6 @@
 <?php
-include '/view/partial/head.php';
-include '/view/partial/header.php';
+include __DIR__ . '/view/partial/head.php';
+include __DIR__ . '/view/partial/header.php';
 ?>
 <!-- First Container -->
 <div class="container-fluid bg-2 text-center">
@@ -10,5 +10,5 @@ include '/view/partial/header.php';
 </div>
 
 <?php 
-include '/view/partial/navbar.php';
-include '/view/partial/footer.php';
+include __DIR__ . '/view/partial/navbar.php';
+include __DIR__ . '/view/partial/footer.php';

@@ -1,5 +1,5 @@
 <?php
-include '/view/partial/head.php';
+include __DIR__ . '/view/partial/head.php';
 include __DIR__ . '/view/partial/header.php';
 ?>
 
