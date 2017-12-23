@@ -1,6 +1,6 @@
 <?php
-include __DIR__ . '/view/partial/head.php';
-include __DIR__ . '/view/partial/header.php';
+include __DIR__ . '/../view/partial/head.php';
+include __DIR__ . '/../view/partial/header.php';
 ?>
 <!-- First Container -->
 <div class="container-fluid bg-2 text-center">
@@ -9,6 +9,6 @@ include __DIR__ . '/view/partial/header.php';
     <a href="https://github.com/wesleygdike"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" class="img-" style="width:60px" alt="Image"></a>
 </div>
 <?php 
-include __DIR__ . '/view/partial/navbar.php';
-include __DIR__ . '/view/partial/footer.php';
+include __DIR__ . '/../view/partial/navbar.php';
+include __DIR__ . '/../view/partial/footer.php';
 
