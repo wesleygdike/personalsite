@@ -20,3 +20,4 @@ include __DIR__ . '/view/partial/header.php';
 <?php 
 include __DIR__ . '/view/partial/navbar.php';
 include __DIR__ . '/view/partial/footer.php';
+?>
