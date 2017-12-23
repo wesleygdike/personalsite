@@ -17,7 +17,6 @@ include __DIR__ . '/view/partial/header.php';
   <p>A creator, I love the challenge and the satisfaction of implementing what I have learned. The power to do is only limited to what you know as far as tech. is concerned. (And I don't plan to ever stop learning!)</p>
 </div>
 
-<!-- Third Container -->
 <?php 
 include __DIR__ . '/view/partial/navbar.php';
 include __DIR__ . '/view/partial/footer.php';
