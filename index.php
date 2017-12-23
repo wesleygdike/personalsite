@@ -6,7 +6,7 @@ include __DIR__ . '/view/partial/header.php';
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
   <h3 class="margin">Who Am I?</h3>
-  <img src="selfpic.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Self Pic" width="350" height="350">
+  <img src="/image/selfpic.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Self Pic" width="350" height="350">
   <h3>I'm a Learner</h3>
 </div>
 

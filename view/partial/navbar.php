@@ -5,19 +5,19 @@
         <div class="col-sm-4">
             <h2>Tech Implementations</h2>
             <a href="techImplementations.html">
-                <img src="//image/flask.png" class="img-center-block" alt="Image">
+                <img src="/image/flask.png" class="img-center-block" alt="Image">
             </a>
         </div>
         <div class="col-sm-4">
             <h2>Interests</h2>
             <a href="interests.html">
-                <img src="dice.png" class="img-center-block" style="" alt="Image">
+                <img src="/image/dice.png" class="img-center-block" style="" alt="Image">
             </a>
         </div>
         <div class="col-sm-4">
             <h2>CS313 Assignments</h2>
             <a href="cs313assignments.html">
-                <img src="pen.png" class="img-center-block" alt="Image">
+                <img src="/image/pen.png" class="img-center-block" alt="Image">
             </a>
         </div>
     </div>
