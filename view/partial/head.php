@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <!-- Theme modified from www.w3schools.com - No Copyright -->
   <title>Wesley G. Dike</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
