@@ -5,7 +5,7 @@
         <div class="col-sm-4">
             <h2>Tech Implementations</h2>
             <a href="techImplementations.html">
-                <img src="flask.png" class="img-center-block" alt="Image">
+                <img src="//image/flask.png" class="img-center-block" alt="Image">
             </a>
         </div>
         <div class="col-sm-4">
