@@ -3,7 +3,7 @@ include __DIR__ . '/../view/partial/head.php';
 include __DIR__ . '/../view/partial/header.php';
 ?>
 <!-- First Container -->
-<div class="container-fluid bg-3 text-center">
+<div class="container-fluid bg-2 text-center">
   <h3 class="margin">These are some the my projects!</h3>
     <div class="row">
         <div class="col-sm-4">
@@ -14,8 +14,8 @@ include __DIR__ . '/../view/partial/header.php';
         </div>
         <div class="col-sm-4">
             <h2>Recommendation Report</h2>
-            <a href="/view/interests.php">
-                <img src="/image/dice.png" class="img-center-block" style="" alt="Image">
+            <a href="https://docs.google.com/presentation/d/1plPxi5KgPZy6xTWlZuz51Zg36i_dqFQtypJuotQB0qM/edit?usp=sharing">
+                <img src="/image/edit-tools.png" class="img-center-block" style="" alt="Edit Tools Image">
             </a>
         </div>
         <div class="col-sm-4">

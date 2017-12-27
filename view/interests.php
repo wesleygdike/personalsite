@@ -7,7 +7,7 @@ include __DIR__ . '/../view/partial/header.php';
     <div class="row">
         <div class="col-sm-4">
             <blockquote class="blockquote-reverse">
-                <p>You become who you want to be, by consistantly being who you want to be.</p>
+                <p>You become who you want to be, by consistently being who you want to be</p>
                 <footer>Richard G. Scott</footer>
             </blockquote>
         </div>
@@ -19,7 +19,7 @@ include __DIR__ . '/../view/partial/header.php';
         </div>
         <div class="col-sm-4">
             <blockquote class="blockquote-reverse">
-                <p>You are who you choose to be.</p>
+                <p>You are who you choose to be</p>
                 <footer>The Iron Giant</footer>
             </blockquote>
         </div>
