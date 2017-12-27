@@ -6,15 +6,13 @@ include __DIR__ . '/../view/partial/header.php';
 <div class="container-fluid bg-2 text-center">
   <h3 class="margin">These are some of my projects!</h3>
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4" data-toggle="tooltip" 
+             title="Use of Node.js with other  modules to produce a live multi player asteroids game">
             
             <h2>Asteroidanon</h2>
             <a href="https://asteroidanon.herokuapp.com">
                 <img src="/image/game-console.png" class="img-center-block" alt="game-console Image">
             </a>
-            <div class="tooltip">Test of tool tip
-            <span class="tooltiptext">Use of Node.js with other  modules to produce a live multi player asteroids game</span>
-            </div>
         </div>
         <div class="col-sm-4">
             <h2>Recommendation Report</h2>
