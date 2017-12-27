@@ -14,7 +14,8 @@ include __DIR__ . '/../view/partial/header.php';
                 <img src="/image/game-console.png" class="img-center-block" alt="game-console Image">
             </a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4" data-toggle="tooltip" 
+             title="Google Slides presentation overviewing a recomendation of improvement to the online educational environment of BYU-I">
             <h2>Recommendation Report</h2>
             <a href="https://docs.google.com/presentation/d/1plPxi5KgPZy6xTWlZuz51Zg36i_dqFQtypJuotQB0qM/edit?usp=sharing">
                 <img src="/image/edit-tools.png" class="img-center-block" style="" alt="Edit Tools Image">
