@@ -28,7 +28,7 @@ include __DIR__ . '/../view/partial/header.php';
 
 <!-- Second Container (Grid) -->
 <div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">What I have done?</h3><br>
+  <h3 class="margin">What I fill my "free time" with?</h3><br>
   <div class="row">
     <div class="col-sm-4">
       <h2>Reading Sends</h2>
@@ -37,7 +37,7 @@ include __DIR__ . '/../view/partial/header.php';
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4C9nKLNns7TgDL49JL2uAAGKI70lR-J9YRy7_gwCPA5X56-lx" class="img-rounded" alt="King Killer chronicles" style="width:80px">
         <img src="https://images-na.ssl-images-amazon.com/images/I/510eo29nzOL.jpg" class="img-rounded" alt="Off to be the Wizard" style="width:80px">
         <img src="http://aspiritedmind.com/wp-content/uploads/2016/02/alexandre-dumas-the-count-of-monte-cristo-1405396754k4ng8.jpg" class="img-center-block" alt="The Count of Monte Calro" style="width:80px">
-        <img src="https://pictures.abebooks.com/REDR00STER/md/md17003052939.jpg" class="img-rounded" alt="Great Expectatons" style="width:80px">
+        <img src="https://s3-us-west-2.amazonaws.com/tabs.web.media/6/5/6593/6593-square-1536.jpg" class="img-rounded" alt="Great Expectatons" style="width:80px">
         <img src="http://images.gr-assets.com/books/1360995327l/17377349.jpg" class="img-rounded" alt="Endurance" style="width:80px">
         <img src="http://68.media.tumblr.com/tumblr_m589qrFffi1qbaom0.jpg" class="img-rounded" alt="Dune" style="width:80px">
         <img src="https://images-na.ssl-images-amazon.com/images/I/51P1c42DyLL._SX322_BO1,204,203,200_.jpg" class="img-rounded" alt="Alexander Hamilton" style="width:80px">
@@ -49,8 +49,8 @@ include __DIR__ . '/../view/partial/header.php';
     <div class="col-sm-4"> 
 	  <h2>Interests</h2>
             <img src="https://lh3.googleusercontent.com/vfrE91FDBD06TW3sidZC4aU2orirnIEK0yBrXfughNbgMS7Yx9PZ1_hOccvscgEo59HI=w300" class="img-" style="width:80px" alt="Image">
-			<img src="http://i.imgur.com/xNLs83T.png" class="img-" style="width:80px" alt="Image">
-            <img src="http://orig12.deviantart.net/b612/f/2015/074/5/d/icon_battle_net_by_alexielios-d8ixkvq.png" class="img-" style="width:80px" alt="Image">
+			<img src="https://www.arduino.cc/arduino_logo.png" class="img-" style="width:80px" alt="Image">
+            <img src="http://vectorlogo4u.com/wp-content/uploads/2016/02/RASPBERRY-PI-LOGO-VECTOR.png" class="img-" style="width:80px" alt="Image">
             <img src="http://www.androidpolice.com/wp-content/uploads/2011/07/hi-256-1-14e452d43f9438ec3e147e9ae77ff05b5299fd3c.png" class="img-" style="width:80px" alt="Image">
             <img src="https://maxcdn.icons8.com/Share/icon/color/Logos//audible1600.png" class="img-" style="width:80px" alt="Image">
             <img src="https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Spotify.png" class="img-" style="width:80px" alt="Image">

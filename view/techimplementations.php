@@ -3,10 +3,28 @@ include __DIR__ . '/../view/partial/head.php';
 include __DIR__ . '/../view/partial/header.php';
 ?>
 <!-- First Container -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">Follow Me, and see what I can do!</h3>
-    <a href="https://twitter.com/Wesley_g_dike"><img src="https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697029-twitter-512.png" class="img-" style="width:80px" alt="Image"></a>
-    <a href="https://github.com/wesleygdike"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" class="img-" style="width:60px" alt="Image"></a>
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">These are some the my projects!</h3>
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>Asteroidanon</h2>
+            <a href="https://asteroidanon.herokuapp.com">
+                <img src="/image/game-console.png" class="img-center-block" alt="game-console Image">
+            </a>
+        </div>
+        <div class="col-sm-4">
+            <h2>Recommendation Report</h2>
+            <a href="/view/interests.php">
+                <img src="/image/dice.png" class="img-center-block" style="" alt="Image">
+            </a>
+        </div>
+        <div class="col-sm-4">
+            <h2>Get Connected</h2>
+            <a href="/view/connect.php">
+                <img src="/image/pen.png" class="img-center-block" alt="Image">
+            </a>
+        </div>
+    </div>
 </div>
 
 <?php 
