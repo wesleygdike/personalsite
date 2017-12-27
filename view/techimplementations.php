@@ -4,24 +4,19 @@ include __DIR__ . '/../view/partial/header.php';
 ?>
 <!-- First Container -->
 <div class="container-fluid bg-2 text-center">
-  <h3 class="margin">These are some the my projects!</h3>
+  <h3 class="margin">These are some of my projects!</h3>
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 tooltip">
             <h2>Asteroidanon</h2>
             <a href="https://asteroidanon.herokuapp.com">
                 <img src="/image/game-console.png" class="img-center-block" alt="game-console Image">
             </a>
+            <span class="tooltiptext">Use of Node.js with other  modules to produce a live multi player asteroids game</span>
         </div>
         <div class="col-sm-4">
             <h2>Recommendation Report</h2>
             <a href="https://docs.google.com/presentation/d/1plPxi5KgPZy6xTWlZuz51Zg36i_dqFQtypJuotQB0qM/edit?usp=sharing">
                 <img src="/image/edit-tools.png" class="img-center-block" style="" alt="Edit Tools Image">
-            </a>
-        </div>
-        <div class="col-sm-4">
-            <h2>Get Connected</h2>
-            <a href="/view/connect.php">
-                <img src="/image/pen.png" class="img-center-block" alt="Image">
             </a>
         </div>
     </div>

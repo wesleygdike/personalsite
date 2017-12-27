@@ -27,7 +27,7 @@ include __DIR__ . '/../view/partial/header.php';
   </div>
 
 <!-- Second Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
+<div class="container-fluid bg-4 text-center">    
   <h3 class="margin">What I fill my "free time" with?</h3><br>
   <div class="row">
     <div class="col-sm-4">
