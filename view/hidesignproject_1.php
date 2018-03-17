@@ -1,6 +1,11 @@
 <?php
 include __DIR__ . '/../view/partial/hidp_head.php';
 include __DIR__ . '/../view/partial/header.php';
+$semester = 'Winter';
+$year = '2018';
+$homeview = [];
+$homeView[1] = ["classid"=>"CS371", "weeklyassignments"=>5,];
+
 ?>
 <!-- First Container -->
 <body>        
@@ -9,6 +14,40 @@ include __DIR__ . '/../view/partial/header.php';
     <div data-role="collapsible">
     <h4>Upcoming Events</h4>
     <ul data-role="listview">
+        <?php
+        foreach ($homeView as $listviewitem)
+        {
+            //add a row to the table for each flying_object
+                echo '<li><a class="dropdown-item" href="#">
+                      <div class="classdata">' . $listviewitem[classid] . ' (Online): '. $semester . ' '. $year. '</div>
+                        <div class="progress">
+                          <span class="progress-bar" style="width:50%">
+                          </span>
+                        </div>
+                      <div class="txtprogess">75% 3 of 4 topics complete</div>
+                        </a>  <!-- Dropdown Menu Ends -->
+                      </li>';
+        }
+        //make the table header
+        echo '<div>
+            <table>
+            <tr>
+            <th>Scripture ID</th>
+            <th>Book Chapter:Verse</th> 
+            <th>Content</th>
+          </tr>';
+
+        foreach ($db->query('SELECT * FROM scriptures;') as $row)
+        {
+            //add a row to the table for each flying_object
+                echo '<tr><td>' . $row['id'] . '</td>'. 
+                        '<td>' 
+                        . $row['book'] . ' ' . $row['chapter'] 
+                        . ':' . $row['verse'] . 
+                        '</td>'.
+                        '<td>' . $row['content'] . '</td></tr>';
+        }
+        ?>
       <li><a class="dropdown-item" href="#">
                       <div class="classdata">Class ## (Online): Semester Year</div>
                         <div class="progress">
