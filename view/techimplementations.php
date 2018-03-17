@@ -24,7 +24,7 @@ include __DIR__ . '/../view/partial/header.php';
         <div class="col-sm-4" data-toggle="tooltip" 
              title="Human Interface Design Project including design documentation and implementation">
             <h2>Human Interface Design Project</h2>
-            <a href="https://docs.google.com/presentation/d/1plPxi5KgPZy6xTWlZuz51Zg36i_dqFQtypJuotQB0qM/edit?usp=sharing">
+            <a href="/view/hidp_head.php">
                 <img src="/image/edit-tools.png" class="img-center-block" style="" alt="Edit Tools Image">
             </a>
         </div>
