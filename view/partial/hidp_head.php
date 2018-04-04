@@ -19,7 +19,7 @@
             }
             
             .completionstatusicon {
-                margin-left: 10px;
+                
             }
             
             .row {
