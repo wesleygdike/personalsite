@@ -51,6 +51,7 @@ include __DIR__ . '/../view/partial/header.php';
                         </div>
                     </div>  
                     <div class="row">
+                        <span class="duetime ">5PM<span class="duealert ">-due</span></span>
                         <span class="grade ">Grade 0/20</span>
                     </div> 
                     <div class="row">
