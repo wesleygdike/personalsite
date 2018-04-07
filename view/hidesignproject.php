@@ -7,7 +7,7 @@ include __DIR__ . '/../view/partial/header.php';
     <div data-role="main" class="ui-content">
     <h2>I-Learn Home View</h2>
     <div data-role="collapsible">
-    <h4>Upcoming Events</h4>
+    <h4>Weekly Progress</h4>
     <ul data-role="listview">
         <li><a class="dropdown-item" href="hidesignproject_1.php">
                       <div class="classdata">Class ## (Online): Semester Year</div>
