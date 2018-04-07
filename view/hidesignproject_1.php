@@ -46,18 +46,18 @@ include __DIR__ . '/../view/partial/header.php';
       <li>                  <!-- Dropdown Item -->
           <a class="dropdown-item" href="hidesignproject_2.php">
                     <div class="floating-box">
-                        <div class="date "><div class="weekday">Mon</div><div class="day">30</div></div>
-                        <div class="completionstatusicon"><input type="checkbox"></div>
+                        <div class="date "><div class="weekday">Complete</div>
+                            <div class="completionstatusicon"><img src="/image/check.png" class="img-center-block" alt="Complete Image"></div>
                     </div>
                     <div class="row">
-                        <span class="duetime ">5PM<span class="duealert ">-due</span></span>
+                        <span class="duetime "><span class="duealert "></span></span>
                         <span class="grade ">Grade 0/20</span>
                     </div> 
                     <div class="row">
                           <span class="assignmentinfo">Assignment Type: Assignment Title</span>
                     </div>
                     <div class="row">
-                          <span class="assignmentdescandtimeest">Brief assignment description & Est. Time requirements</span>
+                        <span class="assignmentdescandtimeest"><a href="#">feedback</a></span>
                     </div>  
                   </a> <!-- Dropdown Item Ends --></li>
     </ul>
