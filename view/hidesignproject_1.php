@@ -13,7 +13,7 @@ include __DIR__ . '/../view/partial/header.php';
           <a class="dropdown-item" href="hidesignproject_2.php">
                     <div class="floating-box">
                         <div class="date "><div class="weekday">Mon</div><div class="day">30</div></div>
-                        <div class="completionstatusicon"><input type="checkbox"></div>
+                        <div class="completionstatusicon"><img src="/image/e_point.png" class="img-center-block" alt="Complete Image"></div>
                     </div>
                     <div class="row">
                         <span class="duetime ">5PM<span class="duealert ">-due</span></span>
@@ -30,10 +30,10 @@ include __DIR__ . '/../view/partial/header.php';
           <a class="dropdown-item" href="hidesignproject_2.php">
                     <div class="floating-box">
                         <div class="date "><div class="weekday">Mon</div><div class="day">30</div></div>
-                        <div class="completionstatusicon"><input type="checkbox"></div>
+                        <div class="completionstatusicon"><img src="/image/dot.png" class="img-center-block" alt="Complete Image"></div>
                     </div>
                     <div class="row">
-                        <span class="duetime ">5PM<span class="duealert ">-due</span></span>
+                        <span class="duetime ">5PM<span class="duealert "></span></span>
                         <span class="grade ">Grade 0/20</span>
                     </div> 
                     <div class="row">
@@ -51,7 +51,6 @@ include __DIR__ . '/../view/partial/header.php';
                         </div>
                     </div>  
                     <div class="row">
-                        <!--<span class="duetime ">5PM<span class="duealert ">-due</span></span>-->
                         <span class="grade ">Grade 0/20</span>
                     </div> 
                     <div class="row">
