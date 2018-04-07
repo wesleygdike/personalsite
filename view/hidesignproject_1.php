@@ -49,6 +49,7 @@ include __DIR__ . '/../view/partial/header.php';
                         <div class="date "><div class="weekday">Complete</div>
                             <div class="completionstatusicon"><img src="/image/check.png" class="img-center-block" alt="Complete Image"></div>
                         </div>
+                    </div>  
                     <div class="row">
                         <span class="grade ">Grade 0/20</span>
                     </div> 
@@ -56,10 +57,9 @@ include __DIR__ . '/../view/partial/header.php';
                           <span class="assignmentinfo">Assignment Type: Assignment Title</span>
                     </div>
                     <div class="row">
-                        <span class="assignmentdescandtimeest"><a href="#">feedback</a></span>
+                        <span class="assignmentdescandtimeest"><p href="#">feedback</p></span>
                     </div>  
-                    </div>
-                  </a> <!-- Dropdown Item Ends --></li>
+          </a> <!-- Dropdown Item Ends --></li>
     </ul>
     </div>
     </div> 
