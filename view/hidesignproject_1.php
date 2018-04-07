@@ -59,6 +59,7 @@ include __DIR__ . '/../view/partial/header.php';
                     <div class="row">
                         <span class="assignmentdescandtimeest"><a href="#">feedback</a></span>
                     </div>  
+                    </div>
                   </a> <!-- Dropdown Item Ends --></li>
     </ul>
     </div>
