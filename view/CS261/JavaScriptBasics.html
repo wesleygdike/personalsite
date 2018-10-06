@@ -6,7 +6,78 @@
 <body>
 
 <h1>JavaScript Basics</h1>
-<p>This is a paragraph.</p>
+<h3>Variables</h3>
+<p id="output"></p>
+<h3>Conclustions from Experimenting</h3>
+<p id="conclusions">
+  Null values and Booleans are treated as numbers when compared to eachother and numbers,
+  but they are converted to strings when compared to other strings.</br>
+  Dates are treated as strings.</br>
+  Null and false Booleans are equal to 0.</br>
+  True Booleans count as 1.</br>
+</p>
+
+<script>
+  //Declaration using identifiers
+  /*Variable Types*/var number, boolean, string, date, nullvalue, undefinedvalue;
+
+  //Assignment of values to the declared variables
+  number = 5;
+  boolean = true;
+  string = 'string'; // can use single or double quotes
+  date = new Date();
+  nullvalue = null;
+  undefinedvalue; // an undefined value is a value without an assignment
+
+  //Experimenting with variable interactions
+  var output = "Experimenting with Variables: </br>";
+  output += "Number: " + number + "</br>";
+  output += "Number plus a Number: " + (number + number) + "</br> ";
+  output += "Boolean: " + boolean + "</br>";
+  output += "Boolean plus a Boolean: " + (boolean + boolean) + "</br>";
+  output += "Number plus a Boolean: " + (number + boolean) + "</br>";
+  output += "String: " + string + "</br>";
+  output += "String plus a String: " + (string + string) + "</br>";
+  output += "String plus a Number: " + (string + number) + "</br>";
+  output += "String plus a Boolean: " + (string + boolean) + "</br>";
+  output += "Date: " + date + "</br>";
+  output += "Date plus a Date: " + (date + date) + "</br>";
+  output += "Date plus a Number: " + (date + number) + "</br>";
+  output += "Date plus a String: " + (date + string) + "</br>";
+  output += "Date plus a Boolean: " + (date + boolean) + "</br>";
+  output += "Null: " + nullvalue + "</br>";
+  output += "Null plus a Null: " + (nullvalue + nullvalue) + "</br>";
+  output += "Null plus a Number: " + (nullvalue + number) + "</br>";
+  output += "Null plus a String: " + (nullvalue + string) + "</br>";
+  output += "Null plus a Boolean: " + (nullvalue + boolean) + "</br>";
+  output += "Null plus a Date: " + (nullvalue + date);
+
+  //Add the output value to the output p tag
+  document.getElementById("output").innerHTML = output;
+</script>
+
+<h3>Loops</h3>
+<p id="for">For Loops</p>
+<p id="forin">For/in Loops</p>
+<p id="while">While Loops</p>
+<p id="dowhile">Do While Loops</p>
+
+<h3>Conditional Statements</h3>
+<p id="comparisons">Comparisons</p>
+<p id="if">If</p>
+<p id="else">Else</p>
+<p id="elseif">Else if</p>
+<p id="switch">switch</p>
+
+<h3>Functions</h3>
+
+<h3>Arrays</h3>
+
+<h3>Associative Arrays</h3>
+
+
+
+
 
 </body>
 </html>
