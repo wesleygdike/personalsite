@@ -86,17 +86,42 @@ Input A Number:<input type="number" id="whileNumInput"></input>
   function whileBtnClk(){
     var input = document.getElementById("whileNumInput").value;
     var output = 'This is the output: ';
-    while(input > 0){ //while your input value is above 0 continue iterating
-      output += input-- + ", ";
+    while(input-- > 0){ //while your input value is above 0 continue iterating
+      output += input + ", ";
     }
     alert(output);
   }
 </script>
 <button onclick="whileBtnClk()">Test it</button>
 <p id="dowhile">Do While Loops function similar to while loops save that the code block is executed prior to the function check.</p>
-
+Input A Number:<input type="number" id="dowhileNumInput"></input>
+<script>
+  function dowhileBtnClk(){
+    var input = document.getElementById("dowhileNumInput").value;
+    var output = 'This is the output: ';
+    do{ //while your input value is above 0 continue iterating
+      output += input + ", ";
+    }while(input-- > 0);
+    alert(output);
+  }
+</script>
+<button onclick="dowhileBtnClk()">Test it</button>
 <h3>Conditional Statements</h3>
-<p id="comparisons">Comparisons</p>
+<p id="comparisons"></p>
+<script>
+  var output = "Comparisons available are: </br>";
+  var types = {
+    number : {type: "number", value: 50},
+    string : {type: "string", value: "string"},
+    boolean : {type: "boolean", value: true}
+  };
+  output += "comparing numbers is fairly easy: </br>"
+  + 50 + " == " + "50" + " = " + (50 == 50) + ", "
+  + 49 + " > " + "50" + " = " + (49 > 50)
+  + 50 + " == " + "50" + " = " + (50 == 50) + ", "+ "</br>";
+
+  document.getElementById("comparisons").innerHTML = output;
+</script>
 <p id="if">If</p>
 <p id="else">Else</p>
 <p id="elseif">Else if</p>
