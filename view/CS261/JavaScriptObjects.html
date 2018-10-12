@@ -34,7 +34,6 @@ function pushTOT(){
   TOTs.push(new TOT(name, costume));
   updateTOTList();
   resetDingDong();
-  //alert();
 }
 
 function updateTOTList(){ //Updates the list of trick-or-treaters on the page
@@ -77,7 +76,6 @@ function resetDingDong(){
 }
 
 function giveCandy(i){ //assigns new candies to the cute little trick-or-treaters
-  alert(i);
   if(TOTs[i].candy){
     TOTs[i].candy.push(document.getElementById("candyinput").value);
   } else {
