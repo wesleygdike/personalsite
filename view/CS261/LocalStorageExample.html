@@ -15,55 +15,57 @@ web page. If we get fancy with it we may built on it for later applications.</p>
 <!-- End Introduction-->
 
 <!-- Character Creation-->
-<div><h2>Toy Creation</h2>
+<div><h2>Toy Creation</h2><h1 id="result"></h1>
 Name of Toy: <input id="input_name"></input></br>
 Type of Toy: <input id="input_toy"></input></br>
 special Abillities: <input id="input_special"></input></br>
 Toy Limitations or Weaknesses: <input id="input_weakness"></input></br>
 Name of Owner: <input id="input_owner"></input></br>
 <button id="create_char_btn" onclick="saveToy()">Save Toy</button></br>
+<p id="intro_display"></p>
 </div>
 <!-- End Character Creation-->
 </div>
 <script>
 function preload(){
-  if(localStorage !== "undefined"){
-    alert("Loading Toy Information!" + localStorage.getItem("toy"));
-    var toy = JSON.parse(localStorage.toy);
-    /*name*/      document.getElementById("input_name").value = toy.name,
-    /*toy*/       document.getElementById("input_toy").value = toy.toy,
-    /*special*/   document.getElementById("input_special").value = toy.special,
-    /*weakness*/  document.getElementById("input_weakness").value = toy.weakness,
-    /*owner*/     document.getElementById("input_owner").value = toy.owner
+  if(typeof(Storage) !== "undefined"){
+    /*GETT THAT DATA BACK!*/
+    var toy = JSON.parse(localStorage.getItem("toy"));
+    /*name*/      document.getElementById("input_name").value = toy.name;
+    /*toy*/       document.getElementById("input_toy").value = toy.toy;
+    /*special*/   document.getElementById("input_special").value = toy.special;
+    /*weakness*/  document.getElementById("input_weakness").value = toy.weakness;
+    /*owner*/     document.getElementById("input_owner").value = toy.owner;
+    document.getElementById("intro_display").innerHTML = toy.intro;
+  }else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
   }
-};
+}
 
-function Toy(name, toy, special, weakness, owner){
+function Toy(name, type, special, weakness, owner){
   this.name = name;
-  this.toy = toy;
+  this.toy = type;
   this.special = special;
   this.weakness = weakness;
   this.owner = owner;
   this.intro = "Hi, my name is " + this.name + ". I am a " + this.toy
   +  ". I can " + this.special + ". " + this.weakness + " really gets me down. "
   + "My owner " + this.owner + " really loves playing with me.";
-  return this;
-};
-var woody = Toy("Woody", "cowboy doll", "voice box and slick hat topped with friendship", "Jelousy", "Andy");
+}
+var woody = new Toy("Woody", "cowboy doll", "voice box and slick hat topped with friendship", "Jelousy", "Andy");
 
 function saveToy(){
-  alert("Saving Toy");
-  var toy = Toy(
-    /*name*/      document.getElementById("input_name").value,
-    /*toy*/       document.getElementById("input_toy").value,
-    /*special*/   document.getElementById("input_special").value,
-    /*weakness*/  document.getElementById("input_weakness").value,
-    /*owner*/     document.getElementById("input_owner").value
+  var toy = new Toy(
+    document.getElementById("input_name").value,
+    document.getElementById("input_toy").value,
+    document.getElementById("input_special").value,
+    document.getElementById("input_weakness").value,
+    document.getElementById("input_owner").value
   );
-  alert(toy.intro);
-  localStorage.setItem("toy", (JSON.stringify(toy)));
-};
-
+  /*IT PUTTS THE DATA IN THE STORAGE!*/
+  localStorage.setItem("toy", JSON.stringify(toy));
+  document.getElementById("intro_display").innerHTML = toy.intro;
+}
 </script>
 </body>
 </html>
