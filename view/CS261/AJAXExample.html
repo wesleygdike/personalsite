@@ -28,7 +28,7 @@ function loadDoc() {
     if (this.readyState == 4 && this.status == 200) {
      toys = JSON.parse(this.responseText);
      for(let x in toys){
-       toyDataDisplay(toy);
+       toyDataDisplay(toys[x]);
      }
     }
   };
