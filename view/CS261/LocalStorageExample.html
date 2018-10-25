@@ -21,12 +21,17 @@ Type of Toy: <input id="input_toy"></input></br>
 special Abillities: <input id="input_special"></input></br>
 Toy Limitations or Weaknesses: <input id="input_weakness"></input></br>
 Name of Owner: <input id="input_owner"></input></br>
-<button id="create_char_btn" onclick="saveToy()">Save Toy</button></br>
+<button id="create_char_btn" onclick="saveToy()">Save Toy</button>
+<button id="store_char_btn" onclick="storeJSONToy()">Store JSON Toy</button>
+<button id="displayJSON_btn" onclick="displayJSON()">Display JSON</button></br>
 <p id="intro_display"></p>
 </div>
 <!-- End Character Creation-->
 </div>
 <script>
+/*AJAX Example Stealing the functions from here...*/
+var toys = [];
+
 function preload(){
   if(typeof(Storage) !== "undefined"){
     /*GETT THAT DATA BACK!*/
@@ -65,6 +70,21 @@ function saveToy(){
   /*IT PUTTS THE DATA IN THE STORAGE!*/
   localStorage.setItem("toy", JSON.stringify(toy));
   document.getElementById("intro_display").innerHTML = toy.intro;
+}
+
+function storeJSONToy(){
+  var toy = new Toy(
+    document.getElementById("input_name").value,
+    document.getElementById("input_toy").value,
+    document.getElementById("input_special").value,
+    document.getElementById("input_weakness").value,
+    document.getElementById("input_owner").value
+  );
+  toys.push(toy);
+}
+
+function displayJSON(){
+  alert(JSON.stringify(toys))
 }
 </script>
 </body>
