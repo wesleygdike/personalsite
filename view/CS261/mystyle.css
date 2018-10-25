@@ -1,0 +1,16 @@
+div{
+  border: 5px solid black;
+  border-radius: 15px;
+}
+table{
+  border: 2px solid black;
+}
+.grey{
+  background-color: Gainsboro;
+}
+.navy{
+  background-color: SteelBlue;
+}
+.offwhite{
+  background-color: Cornsilk;
+}
