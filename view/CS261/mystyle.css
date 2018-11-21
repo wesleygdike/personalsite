@@ -1,3 +1,18 @@
+* {
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+    font-size: 16px;
+}
+
 div{
   border: 5px solid black;
   border-radius: 15px;
@@ -13,4 +28,8 @@ table{
 }
 .offwhite{
   background-color: Cornsilk;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
 }
