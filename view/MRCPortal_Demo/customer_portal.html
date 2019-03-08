@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<body>
+
+<!-- Side Navigation -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
+  <h1 class="w3-xxxlarge w3-text-theme">Side Navigation</h1>
+  <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+</nav>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i>
+  <div class="w3-center">
+  <h4>Global Supplier of Choice</h4>
+  <img class="w3-xxxlarge w3-animate-bottom" src="MRCGlobal.png" alt="MRC Global Icon"><br><br><br><br>
+  </div>
+</header>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1">
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h4>Oh snap! We just showed you a modal..</h4>
+        <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+      </header>
+      <div class="w3-padding">
+        <p>Cool huh? Ok, enough teasing around..</p>
+        <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p>Modal footer</p>
+      </footer>
+    </div>
+</div>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:525px">
+  <p>Drop RFQ File Here...</p><br>
+  <img src="rfq.png" alt="RFQ Icon" height="128" width="128"><br><br>
+  <h3>Process RFQ</h3><br>
+  <p>Your quote will be available to download in a few moments.</p>
+  <div class="w3-padding-32">
+    <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">Download</button>
+  </div>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:525px">
+  <p>Drop PO File Here...</p>
+  <img src="purchase.png" alt="purchase Icon" height="164" width="164"><br><br>
+  <h3>Process Purchase Order</h3><br>
+  <div class="w3-section">
+    <input class="w3-input" type="text" required>
+    <label>Purchase Order Number</label>
+  </div>
+  <div class="w3-padding-32">
+    <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">Purchase</button>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:525px">
+  <p>Get Order Information</p><br>
+  <img src="track.png" alt="Track Icon" height="128" width="128"><br><br>
+  <h3>Track Order</h3><br>
+  <div class="w3-section">
+    <input class="w3-input" type="text" required>
+    <label>MRC Global Order / PO Number</label>
+  </div>
+  <button class="w3-btn w3-theme" onclick="move()">Track Order</button>
+  </div>
+</div>
+</body>
+</html>
